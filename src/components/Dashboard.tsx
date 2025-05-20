@@ -431,9 +431,8 @@ export default function Dashboard() {
 
   return (
     <div className={`${styles.container} ${darkMode ? styles.darkMode : ''}`}>
-      <h1 className={styles.heading}>Dashboard</h1>
       {currentKnownDevice && (
-        <p className={styles.greeting}>Hello {getDisplayName(currentKnownDevice)}</p>
+        <p className={styles.heading}>Hello {getDisplayName(currentKnownDevice)}</p>
       )}
       {lastUpdate && (
         <p className={styles.lastUpdate}>Last updated: {lastUpdate}</p>

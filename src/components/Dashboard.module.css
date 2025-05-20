@@ -21,20 +21,21 @@
 }
 
 .heading {
-  font-size: 2rem;
+  font-size: 5rem;
   margin-bottom: 1rem;
   color: #0070f3;
   transition: color 0.3s ease;
   font-weight: 700;
   letter-spacing: -0.5px;
   padding-bottom: 8px;
-  border-bottom: 2px solid #e2e8f0;
+  /* border-bottom: 2px solid #e2e8f0; */
   text-align: center;
 }
 
 .darkMode .heading {
   color: #4d9aff;
-  border-bottom: 2px solid #2d3748;
+  /* border-bottom: 2px solid #2d3748; */
+  text-align: left;
 }
 
 .subheading {
